@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Curreny Converter</h2>
+        <div class = "noheading">
+        <form action="">
+            <div class="amount">Enter Amount
+            <input value="100">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p class="">From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/BE/flat/64.png" alt="">
+                    
+                        <select name="from" id="">
+                            <option value="">INR</option>
+                            <option value="">AUS</option>
+                            <option value="">LON</option>
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/BE/flat/64.png" alt="">
+                        
+                        <select name="to" id="">
+                            <option value="">USD</option>
+                            <option value="">EU</option>
+                            <option value="">BRA</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <button style="background-color: #4CAF50; color: white; border: none; padding: 12px 20px; font-size: 16px; font-weight: bold; border-radius: 8px; cursor: pointer; transition: 0.3s; box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);">
+                Get Exchange Rate
+            </button>       
+         </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="countrycodes.js"></script>
+</body>
+</html>
